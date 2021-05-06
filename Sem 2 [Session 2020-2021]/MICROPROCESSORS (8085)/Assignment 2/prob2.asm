@@ -1,0 +1,12 @@
+;multiply two 8-bit numbers
+
+LHLD 2050H
+XCHG
+MOV C,D
+MVI D,00H
+LXI H,0000H
+LOOP: DAD D
+	DCR C
+    JNZ LOOP
+SHLD 2052H
+HLT

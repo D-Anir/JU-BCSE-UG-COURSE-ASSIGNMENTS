@@ -1,0 +1,25 @@
+;nth fibonacci number
+
+LDA 2060H	;load N
+MOV C,A
+
+XRA A		;clear accumulator
+
+MOV B,A		;first fibonacci
+MOV E,A
+DCR C
+JZ EXIT
+INR A		;second fibonacci
+MOV E,A
+DCR C
+JZ EXIT
+
+LOOP: ADD B	;getting the next fibonacci
+	MOV B,E
+    MOV E,A
+    DCR C
+    JNZ LOOP
+    MOV A,E
+
+EXIT: STA 2050H	;store at desired address
+    HLT

@@ -1,0 +1,30 @@
+;add two 16-bit numbers
+
+LHLD 2500H
+XCHG
+LHLD 2502H
+DAD D
+SHLD 2550H
+MVI A,00H
+ADC A
+STA 2552H
+
+;first part of number
+;LDA 2500H
+;MOV B,A
+;LDA 2502H
+;ADD B
+;STA 2550H
+
+;second part of number
+;LDA 2501H
+;MOV B,A
+;LDA 2503H
+;ADC B
+;STA 2551H
+
+;carry
+;MVI A,00H
+;ADC A
+;STA 2552H
+hlt

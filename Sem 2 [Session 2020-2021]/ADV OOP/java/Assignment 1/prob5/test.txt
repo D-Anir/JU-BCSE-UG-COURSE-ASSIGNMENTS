@@ -1,0 +1,4 @@
+Although a Hashtable cannot be sorted,
+he asked how to get sorted data,
+that can be done sorting the list of keys
+extracted from the HashTable and retrieving values in that order.

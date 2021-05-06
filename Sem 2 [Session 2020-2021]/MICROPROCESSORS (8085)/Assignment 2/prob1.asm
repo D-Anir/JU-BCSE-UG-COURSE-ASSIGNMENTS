@@ -1,0 +1,59 @@
+;exchange nibbles of two 8-bit numbers
+
+;F4H
+LDA 2050H	;11110100 -> A
+MOV B,A		;A -> B
+ANI 0FH 	;A & 0FH
+			;00001111
+            ;00000100
+RLC
+RLC
+RLC
+RLC
+
+MOV C,A 	;0100 0000(A) -> C
+
+MOV A,B 	;B -> A
+ANI F0H		;A & F0H
+			;11110000
+            ;11110000
+RLC
+RLC
+RLC
+RLC
+
+MOV D,A		;00001111(A) -> D
+
+			;E1H
+LDA 2051H	;11100001 -> A
+MOV B,A		;A -> B
+ANI 0FH		;A & 0FH
+			;00001111
+            ;00000001
+RLC
+RLC
+RLC
+RLC
+
+MOV E,A		;00010000(A) -> E
+
+MOV A,B		;B -> A
+ANI F0H		;A & F0H
+			;11110000
+            ;11100000
+RLC
+RLC
+RLC
+RLC
+
+MOV H,A		;00001110(A) -> H
+
+MOV A,C
+ADD H
+STA 2052H
+
+MOV A,D
+ADD E
+STA 2053H
+
+HLT
