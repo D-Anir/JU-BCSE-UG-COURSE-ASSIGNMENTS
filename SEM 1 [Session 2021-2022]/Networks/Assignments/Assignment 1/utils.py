@@ -1,3 +1,6 @@
+LENGTH_OF_DIVISIONS = 0
+
+
 def binary_addition(binary1, binary2):
     result = ""
     i = len(binary1) - 1
@@ -44,4 +47,28 @@ def binary_division(dividend, divisor):
     return remainder
 
 
-# print(binary_division("111101000", "110"))
+def make_divisions(codeword):
+    divisions = []
+    temp_word = ""
+    global LENGTH_OF_DIVISIONS
+    LENGTH_OF_DIVISIONS = len(codeword) // 4
+    for i in range(len(codeword)):
+        if i > 0 and i % LENGTH_OF_DIVISIONS == 0:
+            divisions.append(temp_word)
+            temp_word = ""
+        temp_word += codeword[i]
+    divisions.append(temp_word)
+
+    return divisions
+
+
+def calculate_sum(divisions):
+    answer = divisions[0]
+    # print(LENGTH_OF_DIVISIONS)
+    for index in range(1, len(divisions)):
+        answer = binary_addition(answer, divisions[index])
+        while len(answer) > LENGTH_OF_DIVISIONS:
+            part1 = answer[:len(answer) - LENGTH_OF_DIVISIONS]
+            part2 = answer[len(answer) - LENGTH_OF_DIVISIONS:]
+            answer = binary_addition(part1, part2)
+    return answer

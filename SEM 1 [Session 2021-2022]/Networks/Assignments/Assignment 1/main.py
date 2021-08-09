@@ -71,6 +71,7 @@ def case1(data_size, file_name):
     r.display_packets("CHECKSUM")
 
 
-size = int(input("Enter length of data-word: "))
-generate_random_bits(size * 5, sys.argv[1])
-case1(size, sys.argv[1])
+if __name__ == '__main__':
+    size = int(input("Enter length of data-word: "))
+    generate_random_bits(size * 5, sys.argv[1])
+    case1(size, sys.argv[1])
