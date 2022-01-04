@@ -1,0 +1,610 @@
+
+
+********** 11/11/2021 12:37:20 SENDER-2 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.32 seconds
+--> Throughput: 14.829 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-3 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.33 seconds
+--> Throughput: 14.827 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-4 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.33 seconds
+--> Throughput: 14.827 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-6 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.35 seconds
+--> Throughput: 14.823 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-5 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.36 seconds
+--> Throughput: 14.822 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-7 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.35 seconds
+--> Throughput: 14.823 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-8 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.38 seconds
+--> Throughput: 14.818 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-9 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.38 seconds
+--> Throughput: 14.818 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-11 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.38 seconds
+--> Throughput: 14.818 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-10 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.38 seconds
+--> Throughput: 14.818 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-12 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.41 seconds
+--> Throughput: 14.813 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-14 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.43 seconds
+--> Throughput: 14.81 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-13 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.41 seconds
+--> Throughput: 14.813 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-15 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.43 seconds
+--> Throughput: 14.81 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-16 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.44 seconds
+--> Throughput: 14.808 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-17 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.44 seconds
+--> Throughput: 14.808 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-18 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.47 seconds
+--> Throughput: 14.803 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-19 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.49 seconds
+--> Throughput: 14.799 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-20 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.51 seconds
+--> Throughput: 14.796 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-21 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.51 seconds
+--> Throughput: 14.796 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-22 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.52 seconds
+--> Throughput: 14.794 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-23 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.52 seconds
+--> Throughput: 14.794 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-24 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.52 seconds
+--> Throughput: 14.794 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-25 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.54 seconds
+--> Throughput: 14.791 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-26 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.54 seconds
+--> Throughput: 14.791 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-28 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.55 seconds
+--> Throughput: 14.789 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-27 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.55 seconds
+--> Throughput: 14.789 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-30 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.57 seconds
+--> Throughput: 14.786 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-29 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.56 seconds
+--> Throughput: 14.787 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-31 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.58 seconds
+--> Throughput: 14.784 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-32 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.6 seconds
+--> Throughput: 14.781 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-34 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.61 seconds
+--> Throughput: 14.779 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-35 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.62 seconds
+--> Throughput: 14.777 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-37 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.64 seconds
+--> Throughput: 14.774 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-39 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.65 seconds
+--> Throughput: 14.772 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-36 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.64 seconds
+--> Throughput: 14.774 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-38 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.66 seconds
+--> Throughput: 14.77 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-40 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.67 seconds
+--> Throughput: 14.769 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-41 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.68 seconds
+--> Throughput: 14.767 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-42 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.69 seconds
+--> Throughput: 14.765 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-43 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.73 seconds
+--> Throughput: 14.758 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-44 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.73 seconds
+--> Throughput: 14.758 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-45 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.76 seconds
+--> Throughput: 14.753 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-46 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.78 seconds
+--> Throughput: 14.75 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-48 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.79 seconds
+--> Throughput: 14.748 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-47 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.8 seconds
+--> Throughput: 14.747 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-49 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.81 seconds
+--> Throughput: 14.745 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-51 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.81 seconds
+--> Throughput: 14.745 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-53 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.83 seconds
+--> Throughput: 14.741 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-52 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.83 seconds
+--> Throughput: 14.741 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-50 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.81 seconds
+--> Throughput: 14.745 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-58 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.89 seconds
+--> Throughput: 14.731 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-54 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.84 seconds
+--> Throughput: 14.74 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-60 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.89 seconds
+--> Throughput: 14.731 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-62 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.92 seconds
+--> Throughput: 14.726 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-56 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.86 seconds
+--> Throughput: 14.736 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-55 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.86 seconds
+--> Throughput: 14.736 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-61 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.92 seconds
+--> Throughput: 14.726 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:20 SENDER-63 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 86.94 seconds
+--> Throughput: 14.723 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:21 SENDER-64 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 87.0 seconds
+--> Throughput: 14.713 bps
+********************************************************
+
+
+
+
+********** 11/11/2021 12:37:22 SENDER-1 STATS **********
+--> 64-Sender System
+--> Total Bits Transferred: 160
+--> Total Time Taken: 88.05 seconds
+--> Throughput: 14.537 bps
+********************************************************
+
+

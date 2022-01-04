@@ -1,0 +1,50 @@
+
+a is sending data to b--------------------
+Total packet sent = 22
+Effective packet sent = 10
+Total time taken = 0.082649 minutes
+Receiver Throughput =   1161 bps
+Utilization percentage =  29.04 %
+Average Successful Transmission time of a packet = 0.495894 seconds/packet
+Efficiency = 45.454545%
+
+
+A is sending data to B--------------------
+Total packet sent = 39
+Effective packet sent = 20
+Total time taken = 8.036489 minutes
+Receiver Throughput =   1433 bps
+Utilization percentage =  35.84 %
+Average Successful Transmission time of a packet = 0.401824 seconds/packet
+Efficiency = 51.282051%
+
+
+A is sending data to B--------------------
+Total packet sent = 103
+Effective packet sent = 30
+Total time taken = 24.697431 minutes
+Receiver Throughput =    699 bps
+Utilization percentage =  17.49 %
+Average Successful Transmission time of a packet = 0.823248 seconds/packet
+Efficiency = 29.126214%
+
+
+A is sending data to B--------------------
+Total packet sent = 189
+Effective packet sent = 50
+Total time taken = 44.450984 minutes
+Receiver Throughput =    647 bps
+Utilization percentage =  16.20 %
+Average Successful Transmission time of a packet = 0.889020 seconds/packet
+Efficiency = 26.455026%
+
+
+A is sending data to B--------------------
+Total packet sent = 236
+Effective packet sent = 51
+Total time taken = 56.963557 minutes
+Receiver Throughput =    515 bps
+Utilization percentage =  12.89 %
+Average Successful Transmission time of a packet = 1.116932 seconds/packet
+Efficiency = 21.610169%
+

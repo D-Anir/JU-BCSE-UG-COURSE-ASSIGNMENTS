@@ -1,0 +1,213 @@
+degree of multiprogramming
+-> no. of processes that can be held by the ready queue
+
+cpu bound
+io bound
+-> depends on which takes more time
+
+
+TAT = CT - AT
+TAT = WT + BT
+
+turn around time
+completion time
+arrival time
+burst time
+
+RT = time at which cpu is allocated - AT
+
+response time
+
+NP -> WT and RT same
+
+non preemtive
+
+disadvantage of FCFS -> convoy effect -> processess with larger BT ahead of that with smaller BT, hence increasing avg waiting time
+     ||	 priority scheduling -> starvation -> biased scheduling based on priority
+
+preemtive approach of SJF -> SRTF
+
+
+non preemtive SJF
+-> select shortest BT wala process first
+-> in case of tie in BT, apply FCFS for those processes
+
+preemtive SJF -> SRTF
+-> there may or may not be preemtion when a new process arrives in the ready queue
+-> preemtion will be there only if the newly arrived process has "less" BT than the remmaining BT of the currently running process.
+-> check for each unit of time unless all the process have come in the ready queue
+-> after all have arrived, no need to check for each unit, go for simple SJF
+-> SRTF gives the minimal avg waiting time for a group of provcesses
+-> SRTF creates a standard for other algorithms
+
+
+predicting BT of processess
+-> process size
+-> process type
+
+-> simple averaging
+
+-> exponential averaging
+-> E(i+1) = a*A(i) + (1-a)*E(i)
+-> E = expected BT of process
+-> A = actual BT of process
+-> 0 < a < 1
+
+NB: Process Time = CPU time + I/O time
+
+CPU utilization = Expected CPU BT / Actual CPU BT
+-> Expected is given in problem statement
+-> Actual is the last unit of time in the gantt chart
+
+
+Round Robin
+-> time quantum is considered
+-> v small tq created more context switching, which should be avoided
+-> v large tq is same as fcfs
+-> preferred tq = 10-100ms
+
+-> context switch time if given should be considered
+-> for that time cpu will be idle
+-> context switch is the time where the state of the process is stored for the time it comes again in the cpu
+
+-> advantages
+-> no convoy, no starvation, better response time, easy to implement
+
+
+starvation problem -> solution -> ageing -> dynamic priority
+
+
+start-up sequence:
+-The CPU starts and fetches instructions into RAM from the BIOS, which is stored in the ROM.
+-The BIOS starts the monitor and keyboard, and does some basic checks to make sure the computer is working properly. For example, it will look for the RAM.
+-The BIOS then starts the boot sequence. It will look for the operating system.
+-If you don’t change any of the settings, the BIOS will fetch the operating system from the hard drive and load it into the RAM.
+-The BIOS then transfers control to the operating system.
+
+necessary conditions for deadlock (coffman conditions)
+-> mutual exclusion -> non-shareable resources
+-> hold and wait
+-> non-preemtion
+-> circular wait
+
+deadlock allocation graph
+-> if there's no cycle => no deadlock
+-> if there's cycle => deadlock maybe present
+
+in matrix, allocation(is if holding or not) and requesting(is if requesting or not) and available(resource availability)
+		     (arrows entering)			   (arrows leaving)
+
+
+handling deadlocks
+-> deadlock prevention
+-> deadlock avoidence
+-> deadlock detection and recovery
+-> deadlock ignorance => ostrich method
+
+deadlock prevention
+-> mutual exclusion cannot be prevented because there are some resources which are inherently non-shareable
+-> preventing hold and wait
+	-> all process must aquire required resources before execution => infeasible
+	-> process holding some resources and requesting for new resources, then it must release the already held resources (sometimes not possible -> starvation)
+	-> give time quantum for waiting for the resources 
+-> removing non-preemtion
+	-> resources can be preemted from processes
+	-> processes holding some resources and waiting for other resources that can't be immediately allocated, then all the aquired resources by that process can be preemted
+	   NB: preemtion of resourcess can only be done from waiting processes, not running processes
+-> circular wait removal
+	-> provide numbers to resources and make sure allocation can be done in increasing/decreasing order only
+
+deadlock avoidance
+-> system maintains a database using which it can use to take decisions whether to entertain a request or not, just to be in safe state
+-> system analyse the databse to determine whether a request can lead to deadlock
+	-> if np, then request is granted
+	-> else, the process is kept in waiting state
+NB: drawback is that a process may need to wait for a long delay before they are granted a resource
+
+resource allocation graph algorithm
+-> all the claims must be made in advance
+-> will work only if there is a single instance for every resource
+-> for multiple instances we will use banker's algo
+-> claim edge is converted into request edge only if it does not create a cycle in RAG
+claim edge in allocation graph denotes that Pi may request Rj in the future (Pi ------> Rj)
+
+banker's algorithm
+-> how many instances of each resource can a process request at max (MAX => 2D array)
+-> how many  ||       ||  ||    ||     a process is currently holding (Allocation => 1D array)
+-> how many  ||       ||  ||    ||     is available in the system (Available => 2D array)
+=> find Need Matrix
+=> is in safe state? find safe sequence
+safe state => if we can execute all the process without going into unsafe state
+safe sequence => the sequence in which processes should be executed for them to be in safe state
+
+Need(i) = Max(i) - Allocation(i)
+after executing a process add the coressponding allocation values to available values
+
+Resource Reques Algo
+-> check if the requested resources <= need of that process
+-> check if the requested resources <= available
+-> update the table as:
+	-> add the requested resources to "allocation" collumn of that process
+	-> deduct the requested resources from "available"
+	-> deduct the requested resources from "need" of that process
+-> now apply Banker's algorithm, if safe sequence exists, then the requested is granted immediately, else made to wait
+
+
+Deadlock Detection Algorithms (2 types):
+-> Wait-For Graph (for single instance wala resources) => made from given RAG, P1->R1->P2 in RAG implies P1->P2 in WFG
+	-> detect cycle (necessary & sufficeient condition)
+
+-> Banker's Algorithm (for multiple instances)
+	-> detect cycle (only necessary, not sufficient)
+	-> if in unsafe state => is in deadlock state
+
+
+Deadlock Recovery
+-> optimistic approach
+	-> preemtion of resources
+	-> preemt some resources from processess and give them to other processess, until there's no deadlock
+	-> factors to be considered before preemting a resource from a process
+		-> selecting victim process
+		-> rollback
+			-> when you preemt a resource from a process, it has to be roll-backed to previous safe-state, and start its execution from there
+				-> system needs to maintain the details of the processess to make sure it can start from where it left
+			-> 'total roll-back' means completely abrupting the process so that it can start executing from the very beginning (not a great option)
+		-> starvation
+			-> if same process is selected again and again, it has to wait for a long amount of time, which must be avoided
+				-> can be implemented by ensuring a finite amount of roll-backs for a process more than which it cannot be preemted
+
+-> pessimistic approach
+	-> terminate all the processess which are in deadlock state => (costly)
+	-> terminate a process and decide whether to kill further processess after detecting deadlock => (overhead of calling the detection algo again and again)
+		-> better to select the process which will cause minimum overhead, on the basis of
+			-> priority of the process
+			-> how much the process has been computed
+			-> how much more time the process will take before completion
+			-> how many and what type of resources the process has used
+			-> how many resources the process needs to complete the execution
+			
+
+CPU Scheduling goodness criteria:
+-> CPU utilisation => high
+-> TAT => less
+-> response time => minimum
+-> waiting time => less
+-> throughput => high
+
+
+MM divided into frames
+A process divided into pages before execution so that MM can store many pages, rather than storing the entire process
+If needed page is not in MM, page fault occurs
+When a page is to be allocated a frame, that is called demand paging.
+-> OS contacts HD, and finds the needed page and loads in MM
+-> If MM is full, page replacement algorithms are used
+-> OS keeps a page table to store information about the location of pages of a particular process
+-> The page table is updated by the OS
+
+FIFO -> first in first out
+LRU -> Least Recently Used (check from right to left)
+Optimal -> that will not be used in the near future (check from left to right) => least number of page faults => non-implementable(since future cannot be predicted) => sets a standard for others
+
+Belady's Anomaly in FIFO:
+Usually, on increasing the number of frames in MM, the number of page faults must decrease. This anomaly does not follow this rule.
+Replaces an active page with a new page, hence we get page fault

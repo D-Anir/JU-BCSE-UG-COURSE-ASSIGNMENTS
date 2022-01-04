@@ -1,0 +1,362 @@
+
+-----------------------------------------------------------------------------
+	######## CHOSEN CSMA TECHNIQUE IS : P PERSISTENT METHOD ########
+-----------------------------------------------------------------------------
+
+
+
+********** 10/11/2021 15:15:28 SENDER-9 STATS **********
+*	Total packets: 13
+*	Total Delay: 101.69 secs
+*	Total collisions: 5
+*	Throughput : 0.12783951224309176
+*	Efficiency: 0.722
+********************************************************
+
+
+
+
+********** 10/11/2021 15:15:47 SENDER-2 STATS **********
+*	Total packets: 13
+*	Total Delay: 120.9 secs
+*	Total collisions: 9
+*	Throughput : 0.10752688172043011
+*	Efficiency: 0.591
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:19 SENDER-12 STATS **********
+*	Total packets: 13
+*	Total Delay: 153.0 secs
+*	Total collisions: 10
+*	Throughput : 0.08496732026143791
+*	Efficiency: 0.565
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:20 SENDER-13 STATS **********
+*	Total packets: 13
+*	Total Delay: 153.11 secs
+*	Total collisions: 11
+*	Throughput : 0.08490627653321141
+*	Efficiency: 0.542
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:23 SENDER-11 STATS **********
+*	Total packets: 13
+*	Total Delay: 156.56 secs
+*	Total collisions: 14
+*	Throughput : 0.0830352580480327
+*	Efficiency: 0.481
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:28 SENDER-14 STATS **********
+*	Total packets: 13
+*	Total Delay: 161.24 secs
+*	Total collisions: 15
+*	Throughput : 0.08062515504837509
+*	Efficiency: 0.464
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:32 SENDER-16 STATS **********
+*	Total packets: 13
+*	Total Delay: 165.8 secs
+*	Total collisions: 14
+*	Throughput : 0.07840772014475271
+*	Efficiency: 0.481
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:33 SENDER-15 STATS **********
+*	Total packets: 13
+*	Total Delay: 166.15 secs
+*	Total collisions: 7
+*	Throughput : 0.07824255191092386
+*	Efficiency: 0.65
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:36 SENDER-5 STATS **********
+*	Total packets: 13
+*	Total Delay: 169.32 secs
+*	Total collisions: 8
+*	Throughput : 0.0767776990314198
+*	Efficiency: 0.619
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:36 SENDER-4 STATS **********
+*	Total packets: 13
+*	Total Delay: 169.99 secs
+*	Total collisions: 5
+*	Throughput : 0.07647508676980999
+*	Efficiency: 0.722
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:41 SENDER-10 STATS **********
+*	Total packets: 13
+*	Total Delay: 174.64 secs
+*	Total collisions: 13
+*	Throughput : 0.07443884562528631
+*	Efficiency: 0.5
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:43 SENDER-7 STATS **********
+*	Total packets: 13
+*	Total Delay: 176.34 secs
+*	Total collisions: 10
+*	Throughput : 0.07372122036974027
+*	Efficiency: 0.565
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:51 SENDER-1 STATS **********
+*	Total packets: 13
+*	Total Delay: 184.37 secs
+*	Total collisions: 8
+*	Throughput : 0.0705103867223518
+*	Efficiency: 0.619
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:52 SENDER-6 STATS **********
+*	Total packets: 13
+*	Total Delay: 185.82 secs
+*	Total collisions: 15
+*	Throughput : 0.06996017651490691
+*	Efficiency: 0.464
+********************************************************
+
+
+
+
+********** 10/11/2021 15:16:57 SENDER-3 STATS **********
+*	Total packets: 13
+*	Total Delay: 190.12 secs
+*	Total collisions: 11
+*	Throughput : 0.06837786661056175
+*	Efficiency: 0.542
+********************************************************
+
+
+
+
+********** 10/11/2021 15:17:00 SENDER-8 STATS **********
+*	Total packets: 13
+*	Total Delay: 193.58 secs
+*	Total collisions: 10
+*	Throughput : 0.06715569790267589
+*	Efficiency: 0.565
+********************************************************
+
+
+
+-----------------------------------------------------------------------------
+	######## CHOSEN CSMA TECHNIQUE IS : ONE PERSISTENT METHOD ########
+-----------------------------------------------------------------------------
+
+
+
+********** 11/11/2021 12:38:57 SENDER-8 STATS **********
+*	Total packets: 13
+*	Total Delay: 112.97 secs
+*	Total collisions: 6
+*	Throughput : 0.11507479861910241
+*	Efficiency: 0.684
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:15 SENDER-9 STATS **********
+*	Total packets: 13
+*	Total Delay: 130.49 secs
+*	Total collisions: 7
+*	Throughput : 0.0996244922982604
+*	Efficiency: 0.65
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:28 SENDER-1 STATS **********
+*	Total packets: 13
+*	Total Delay: 144.21 secs
+*	Total collisions: 16
+*	Throughput : 0.0901463144026073
+*	Efficiency: 0.448
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:28 SENDER-4 STATS **********
+*	Total packets: 13
+*	Total Delay: 144.4 secs
+*	Total collisions: 20
+*	Throughput : 0.09002770083102493
+*	Efficiency: 0.394
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:34 SENDER-13 STATS **********
+*	Total packets: 13
+*	Total Delay: 149.61 secs
+*	Total collisions: 11
+*	Throughput : 0.08689258739389077
+*	Efficiency: 0.542
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:36 SENDER-7 STATS **********
+*	Total packets: 13
+*	Total Delay: 151.72 secs
+*	Total collisions: 16
+*	Throughput : 0.0856841550224097
+*	Efficiency: 0.448
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:41 SENDER-6 STATS **********
+*	Total packets: 13
+*	Total Delay: 157.19 secs
+*	Total collisions: 17
+*	Throughput : 0.08270246198867613
+*	Efficiency: 0.433
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:44 SENDER-16 STATS **********
+*	Total packets: 13
+*	Total Delay: 159.96 secs
+*	Total collisions: 13
+*	Throughput : 0.08127031757939485
+*	Efficiency: 0.5
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:49 SENDER-11 STATS **********
+*	Total packets: 13
+*	Total Delay: 164.65 secs
+*	Total collisions: 19
+*	Throughput : 0.07895535985423625
+*	Efficiency: 0.406
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:49 SENDER-5 STATS **********
+*	Total packets: 13
+*	Total Delay: 164.99 secs
+*	Total collisions: 24
+*	Throughput : 0.0787926541002485
+*	Efficiency: 0.351
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:56 SENDER-12 STATS **********
+*	Total packets: 13
+*	Total Delay: 171.77 secs
+*	Total collisions: 18
+*	Throughput : 0.07568259882400885
+*	Efficiency: 0.419
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:56 SENDER-10 STATS **********
+*	Total packets: 13
+*	Total Delay: 171.9 secs
+*	Total collisions: 21
+*	Throughput : 0.07562536358347877
+*	Efficiency: 0.382
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:58 SENDER-15 STATS **********
+*	Total packets: 13
+*	Total Delay: 174.17 secs
+*	Total collisions: 16
+*	Throughput : 0.07463971981397485
+*	Efficiency: 0.448
+********************************************************
+
+
+
+
+********** 11/11/2021 12:39:59 SENDER-14 STATS **********
+*	Total packets: 13
+*	Total Delay: 174.65 secs
+*	Total collisions: 15
+*	Throughput : 0.07443458345261952
+*	Efficiency: 0.464
+********************************************************
+
+
+
+
+********** 11/11/2021 12:40:01 SENDER-3 STATS **********
+*	Total packets: 13
+*	Total Delay: 176.88 secs
+*	Total collisions: 20
+*	Throughput : 0.07349615558570782
+*	Efficiency: 0.394
+********************************************************
+
+
+
+
+********** 11/11/2021 12:40:08 SENDER-2 STATS **********
+*	Total packets: 13
+*	Total Delay: 184.31 secs
+*	Total collisions: 23
+*	Throughput : 0.07053334056752211
+*	Efficiency: 0.361
+********************************************************
+
+

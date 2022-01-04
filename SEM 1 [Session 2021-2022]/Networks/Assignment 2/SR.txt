@@ -1,0 +1,70 @@
+
+sender is sending data to receiver--------------------
+Total packet sent = 21
+Effective packet sent = 10
+Total time taken = 0.099527 minutes
+Receiver Throughput =    964 bps
+Utilization percentage =  24.11 %
+Average Successful Transmission time of a packet = 0.597161 seconds/packet
+Efficiency = 47.619048%
+
+
+A is sending data to B--------------------
+Total packet sent = 42
+Effective packet sent = 20
+Total time taken = 8.883026 minutes
+Receiver Throughput =   1296 bps
+Utilization percentage =  32.42 %
+Average Successful Transmission time of a packet = 0.444151 seconds/packet
+Efficiency = 47.619048%
+
+
+A is sending data to B--------------------
+Total packet sent = 53
+Effective packet sent = 30
+Total time taken = 9.439331 minutes
+Receiver Throughput =   1830 bps
+Utilization percentage =  45.77 %
+Average Successful Transmission time of a packet = 0.314644 seconds/packet
+Efficiency = 56.603774%
+
+
+A is sending data to B--------------------
+Total packet sent = 127
+Effective packet sent = 50
+Total time taken = 27.929294 minutes
+Receiver Throughput =   1031 bps
+Utilization percentage =  25.78 %
+Average Successful Transmission time of a packet = 0.558586 seconds/packet
+Efficiency = 39.370079%
+
+
+A is sending data to B--------------------
+Total packet sent = 85
+Effective packet sent = 51
+Total time taken = 20.822438 minutes
+Receiver Throughput =   1410 bps
+Utilization percentage =  35.27 %
+Average Successful Transmission time of a packet = 0.408283 seconds/packet
+Efficiency = 60.000000%
+
+
+A is sending data to B--------------------
+Total packet sent = 127
+Effective packet sent = 51
+Total time taken = 27.456693 minutes
+Receiver Throughput =   1069 bps
+Utilization percentage =  26.75 %
+Average Successful Transmission time of a packet = 0.538367 seconds/packet
+Efficiency = 40.157480%
+
+
+A is sending data to B--------------------
+Total packet sent = 104
+Effective packet sent = 51
+Total time taken = 21.318595 minutes
+Receiver Throughput =   1377 bps
+Utilization percentage =  34.45 %
+Average Successful Transmission time of a packet = 0.418012 seconds/packet
+Efficiency = 49.038462%
+
